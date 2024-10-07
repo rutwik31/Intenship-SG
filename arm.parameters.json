@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+
+        "storageAccountName": {
+            "value": "rutwik1234"
+        },
+        "location": {
+            "value": "East US" 
+        },
+        "sku": {
+            "value": "Standard_LRS"
+        },
+        "webappservicename": {
+            "value": "mywebapp" 
+        }
+    }
+
+}
